@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="55dp"
+        android:layout_marginTop="50dp"
+        android:layout_weight="0"
+        android:paddingLeft="40dp"
+        android:text="@string/hello"
+        android:textColor="#F000AA"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/easy"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:text="Easy"
+        android:textColor="#00FF00" />
+
+    <Button
+        android:id="@+id/normal"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:text="Normal"
+        android:textColor="#00FF00" />
+
+    <Button
+        android:id="@+id/hard"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:text="Hard"
+        android:textColor="#00FF00" />
+
+    <TextView
+        android:id="@+id/about1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="80dp"
+        android:layout_weight="0.00"
+        android:text="Hridoy"
+        android:textColor="#0000FF"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/about2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:text="CSE, BUET"
+        android:textColor="#0000FF"
+        android:textSize="15sp" />
+
+</LinearLayout>
